@@ -1,0 +1,84 @@
+.mobile {
+  .scheme {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__header {
+    margin-bottom: 30px;
+  }
+
+  &__logo {
+    margin-bottom: 50px;
+  }
+
+  &__logo-image {
+    max-width: 110px;
+    margin-bottom: 10px;
+
+    a {
+      display: inline-block;
+    }
+  }
+
+  &__logo-title p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #D1253C;
+  }
+
+  &__sale {
+    max-width: 155px;
+    text-transform: uppercase;
+    color: #D1253C;
+
+    p {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 100%;
+    }
+
+    span {
+      display: block;
+      font-weight: 500;
+      font-size: 68px;
+      line-height: 100%;
+    }
+  }
+
+  &__toothbrush {
+    max-width: 204px;
+    padding-top: 45px;
+  }
+
+  &__coupon {
+    background: linear-gradient(190deg, #D1253C 80%, #EFEFEF 50%);
+    min-height: 100vh;
+  }
+
+  &__coupon-sale {
+    max-width: 272px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 40px 40px;
+    padding: 40px 48px 40px 32px;
+
+    &-title {
+      margin-bottom: 15px;
+
+      p {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: #D1253C;
+      }
+    }
+  }
+
+  &__magnit {
+    max-width: 50px;
+    padding-top: 20px;
+  }
+}
