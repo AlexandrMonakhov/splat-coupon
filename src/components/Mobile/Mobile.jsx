@@ -32,7 +32,7 @@ function Mobile() {
 					</div>
 
 					<div className="scheme__right">
-						<div className="mobile__toothbrush">
+						<div className="mobile__toothbrush" data-aos="fade" data-aos-delay="300">
 							<img src={toothbrush} alt="Зубные щетки SPLAT" />
 						</div>
 					</div>
@@ -69,7 +69,7 @@ function Mobile() {
 				</div>
 
 				<div className="mobile__rules">
-					<div className="mobile__rule">
+					<div className="mobile__rule" data-aos="zoom-in-down" data-aos-delay="900">
 						<div className="mobile__rule-image">
 							<img src={scan} alt="Сделайте скриншот купона" />
 						</div>
@@ -79,7 +79,7 @@ function Mobile() {
 						</div>
 					</div>
 
-					<div className="mobile__rule">
+					<div className="mobile__rule" data-aos="zoom-in-down" data-aos-delay="1200">
 						<div className="mobile__rule-image">
 							<img src={toothbrushIcon} alt="Выберите в торговом зале товары из ассортимента зубных щеток SPLAT" />
 						</div>
@@ -89,7 +89,7 @@ function Mobile() {
 						</div>
 					</div>
 
-					<div className="mobile__rule">
+					<div className="mobile__rule" data-aos="zoom-in-down" data-aos-delay="1500">
 						<div className="mobile__rule-image">
 							<img src={tickets} alt="Предъявите купон на кассе до оплаты товара" />
 						</div>

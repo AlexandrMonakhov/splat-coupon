@@ -24,7 +24,7 @@ function Tablet() {
               <p>Представляет</p>
             </div>
 
-            <div className="tablet__toothbrush">
+            <div className="tablet__toothbrush" data-aos="fade" data-aos-delay="300">
 							<img src={toothbrush} alt="Зубные щетки SPLAT" />
 						</div>
           </div>
@@ -65,7 +65,7 @@ function Tablet() {
         </div>
 
         <div className="tablet__rules">
-					<div className="tablet__rule">
+					<div className="tablet__rule" data-aos="zoom-in-down" data-aos-delay="900">
 						<div className="tablet__rule-image">
 							<img src={scan} alt="Сделайте скриншот купона" />
 						</div>
@@ -75,7 +75,7 @@ function Tablet() {
 						</div>
 					</div>
 
-					<div className="tablet__rule">
+					<div className="tablet__rule" data-aos="zoom-in-down" data-aos-delay="1200">
 						<div className="tablet__rule-image">
 							<img src={toothbrushIcon} alt="Выберите в торговом зале товары из ассортимента зубных щеток SPLAT" />
 						</div>
@@ -85,7 +85,7 @@ function Tablet() {
 						</div>
 					</div>
 
-					<div className="tablet__rule">
+					<div className="tablet__rule" data-aos="zoom-in-down" data-aos-delay="1500">
 						<div className="tablet__rule-image">
 							<img src={tickets} alt="Предъявите купон на кассе до оплаты товара" />
 						</div>
