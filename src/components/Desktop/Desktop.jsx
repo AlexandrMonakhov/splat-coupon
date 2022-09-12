@@ -48,7 +48,7 @@ function Desktop() {
             </div>
 
             <div className="desktop__column-right">
-              <div className="desktop__toothbrush" data-aos="fade" data-aos-delay="300">
+              <div className="desktop__toothbrush">
                 <img src={toothbrush} alt="Зубные щетки SPLAT" />
               </div>
             </div>
@@ -86,7 +86,7 @@ function Desktop() {
         </div>
 
         <div className="desktop__rules">
-					<div className="desktop__rule" data-aos="zoom-in-down" data-aos-delay="900">
+					<div className="desktop__rule" data-aos="zoom-in-down" data-aos-delay="300">
 						<div className="desktop__rule-image">
 							<img src={scan} alt="Сделайте скриншот купона" />
 						</div>
@@ -96,7 +96,7 @@ function Desktop() {
 						</div>
 					</div>
 
-					<div className="desktop__rule" data-aos="zoom-in-down" data-aos-delay="1200">
+					<div className="desktop__rule" data-aos="zoom-in-down" data-aos-delay="600">
 						<div className="desktop__rule-image">
 							<img src={toothbrushIcon} alt="Выберите в торговом зале товары из ассортимента зубных щеток SPLAT" />
 						</div>
@@ -106,7 +106,7 @@ function Desktop() {
 						</div>
 					</div>
 
-					<div className="desktop__rule" data-aos="zoom-in-down" data-aos-delay="1500">
+					<div className="desktop__rule" data-aos="zoom-in-down" data-aos-delay="900">
 						<div className="desktop__rule-image">
 							<img src={tickets} alt="Предъявите купон на кассе до оплаты товара" />
 						</div>

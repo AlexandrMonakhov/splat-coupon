@@ -90,9 +90,9 @@ ul {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .scheme {
-    padding: 0;
+    padding: 0 16px;
   }
 
   .tablet {

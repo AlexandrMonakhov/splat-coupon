@@ -20,8 +20,8 @@ function App() {
 
   return (
     <div className="App">
-      { width >= 1440 && <Desktop /> }
-      { (width >= 768 && width < 1440) && <Tablet /> }
+      { width >= 1200 && <Desktop /> }
+      { (width >= 768 && width < 1200) && <Tablet /> }
       { width < 768 && <Mobile /> }
     </div>
   );
