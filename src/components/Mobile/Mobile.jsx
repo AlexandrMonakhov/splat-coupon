@@ -16,7 +16,7 @@ function Mobile() {
 					<div className="scheme__left">
 						<div className="mobile__logo">
 							<div className="mobile__logo-image">
-								<a href="#">
+								<a href="https://clc.to/aMvp0g" target="_blank" rel="noopener noreferrer">
 									<img src={splat} alt="Логотип SPLAT" />
 								</a>
 							</div>
@@ -60,7 +60,7 @@ function Mobile() {
 
 						<div className="scheme__right">
 							<div className="mobile__magnit">
-								<a href="#">
+								<a href="https://clc.to/HO1LQw" target="_blank" rel="noopener noreferrer">
 									<img src={magnit} alt="Логотип Магнит" />
 								</a>
 							</div>

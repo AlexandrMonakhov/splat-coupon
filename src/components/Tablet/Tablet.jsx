@@ -15,7 +15,7 @@ function Tablet() {
         <div className="scheme">
           <div className="scheme__left">
             <div className="tablet__logo-image">
-              <a href="#">
+              <a href="https://clc.to/aMvp0g" target="_blank" rel="noopener noreferrer">
                 <img src={splat} alt="Логотип SPLAT" />
               </a>
             </div>
@@ -54,7 +54,7 @@ function Tablet() {
 
                 <div className="tablet__scheme__right">
                   <div className="tablet__magnit">
-                    <a href="#">
+                    <a href="https://clc.to/HO1LQw" target="_blank" rel="noopener noreferrer">
                       <img src={magnit} alt="Логотип Магнит" />
                     </a>
                   </div>
